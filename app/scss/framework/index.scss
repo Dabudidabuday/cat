@@ -1,0 +1,13 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'utilities.scss';
+@import 'buttons.scss';
+@import 'containers.scss';
+
+html,
+body {
+    font-family: 'Cuprum', sans-serif;
+    font-size: $baseFontSize;
+    @include fontSmoothing();
+}
