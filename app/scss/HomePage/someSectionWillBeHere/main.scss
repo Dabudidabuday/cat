@@ -1,7 +1,19 @@
+@import 'header/main.scss';
+@import 'welcome.scss';
+
+
 .some-section {
   background: orange;
 
   .title {
     color: $baseFontColor;
   }
+}
+
+.main-header {
+    padding-top: 50px;
+
+    .main-header__navigation-list {
+        max-width: 478px;
+    }
 }

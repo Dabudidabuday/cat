@@ -4,16 +4,46 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="dist/App/main.css">
 	<link rel="stylesheet" href="dist/HomePage/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=cyrillic" rel="stylesheet">
 	<title>Document</title>
 </head>
 
 <body class="body">
 	<div id="layout">
 		<div class="main">
-			<header class="main-header">header</header>
+			<header class="main-header flex-container jc-space-between ai-center">
+				<a href="" class="main-header__logo-link">
+					<img src="assets/img/home-page/logo.png" alt="Логотип 'Сat energy'" class="main-header__logo-img">
+				</a>
+
+				<nav class="main-header__navigation">
+					<ul class="main-header__navigation-list flex-container jc-space-between">
+						<li class="item">
+							<a class="item__link" href="">
+								главная
+							</a>
+						</li>
+
+						<li class="item">
+							<a class="item__link" href="">
+								каталог продукции
+							</a>
+						</li>
+
+						<li class="item">
+							<a class="item__link" href="">
+								подбор программы
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
 			<main class="main-body">
 				<div class="home-page">
-					<p>lalala</p>
+					<section class="home-page__welcome">
+						<div class="homepage__welcome-background"></div>
+					</section>
 				</div>
 			</main>
 		</div>
