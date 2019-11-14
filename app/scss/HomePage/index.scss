@@ -1,10 +1,8 @@
 @import 'variables.scss';
-
+@import '../globals/header/main.scss';
 
 .home-page {
-	@import 'someSectionWillBeHere/main.scss';
-
-	
+	@import 'welcome/main.scss';
 
 	p {
 		color: $baseFontColor;
